@@ -1,0 +1,105 @@
+x = 6
+t = 40
+m = 40
+r = 40
+d = 40
+k = 40
+print("Welcome to reminderbinder")
+rmnd = input("Do you need a reminder?(Yes or No)")
+
+
+if rmnd == 'Yes':
+    x = 6
+elif rmnd == 'No':
+    print("Ok buddie, have fun losing your things lol, jkjk :)")
+    x = 4
+else:
+    print("Invalid Input please choose Yes or No")
+    x = 4
+    
+if x>5:
+    time = input("What time would you like to be reminded at?")
+    jckt = input("Do you have your hoodie/jacket(Yes or No?")
+    if jckt == 'Yes':
+        brnd = input ("What brand?")
+        jckttest1 = 5
+        m =40
+    elif jckt == 'No':
+        print("ight")
+        jckttest1 = 3
+        m = 40
+    else:
+        print("(Yes/No)")
+        jckttest1 = 3
+        x=4
+        m = 29
+        t = 29
+        r = 29
+        d = 29
+        k = 29
+if t > 30:
+    phn = input("Do you have your Iphone? (Yes or No)")
+    if phn == 'Yes':
+        phntest1 = 5
+        r =40
+    elif phn == 'No':
+        print("ight")
+        phntest1 = 3
+        r = 40
+    else:
+        print("(Yes/No)")
+        phntest1 = 3
+        x=4
+        m = 29
+        t = 29
+        r = 29
+        d = 29
+        k = 29
+if r > 30:
+    wllt = input("Do you have your wallet? (Yes or No)")
+    if wllt == 'Yes':
+        brn = input ("What brand?")
+        wllttest1 = 5
+        t =40
+    elif wllt == 'No':
+        print("ight")
+        wllttest1 = 3
+        t = 40
+    else:
+        print("yo")
+        jckttest1 = 3
+        x=4
+        m = 29
+        t = 29
+        r = 29
+        d = 29
+        k = 29
+if d > 30:
+    headphones = input("Do you have your headphones? (Yes or No)")
+    if headphones == 'Yes':
+        brand = input ("What brand?")
+        headphonetest1 = 5
+        k = 40
+    elif headphones == 'No':
+        print("ight")
+        headphonetest1 = 3
+        k = 40
+    else:
+        print("yo")
+        headphonetest1 = 3
+        x=4
+        m = 29
+        t = 29
+        r = 29
+        d = 29
+        k = 29
+if k > 30:         
+    print("You will be reminded at,",time, "to bring your")
+    if jckttest1 > 4:
+        print (brnd,"hoodie/jacket,")
+    if wllttest1 > 4:
+        print (brn, "wallet,")
+    if phntest1 > 4:
+        print ("Iphone,")
+    if headphonetest1 > 4:
+        print (brand, "Headphones")
