@@ -6,7 +6,7 @@ def send_email(have):
     email_user = 'lukesoliman1@gmail.com' # email here
     server = smtplib.SMTP ('smtp.gmail.com', 587)
     server.starttls()
-    server.login(email_user, 'lukeluke1') # pass here or read from input
+    server.login(email_user, 'XXXXX') # pass here or read from input
     message = """\
 Subject: Get ur stuff!
 \nThings u need to get :
